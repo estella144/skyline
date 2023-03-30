@@ -104,5 +104,5 @@ def draw_picture(turtle):
     draw_layer_3(turtle)
     
 t = turtle.Turtle()
-t.speed(5)
+t.speed(20)
 draw_picture(t)
