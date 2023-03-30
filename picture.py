@@ -93,7 +93,7 @@ def draw_layer_2(turtle):
 
 def draw_layer_3(turtle):
     
-    for i in range(-200, 300, 100):
+    for i in range(-200, 200, 100):
         draw_house(turtle, i, -200, i)
 
 def draw_picture(turtle):
