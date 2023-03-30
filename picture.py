@@ -79,7 +79,7 @@ def draw_building_2(turtle, start_x, start_y):
 def draw_house(turtle, start_x, start_y, i):
 
     draw_rect(turtle, 100, 400/4, start_x, start_y, BUILDING_2_COLOR, True)
-    if i != 200:
+    if i != 100:
         draw_eq_tri(turtle, 100, 60, start_x, start_y + 100, BUILDING_2_COLOR, True)
     draw_rect(turtle, 30, 15, start_x+80/13+30/2, start_y, DOOR_COLOR, True)
     draw_window(turtle, 30, start_x+30+80/3, start_y+40/3, WINDOW_COLOR)
